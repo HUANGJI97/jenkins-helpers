@@ -1,0 +1,21 @@
+{
+  "name": "jenkins-helpers",
+  "version": "1.0.0",
+  "description": "nodejs Jenkins Helper,  remote  trigger build",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Jenkins",
+    "node-jenkins",
+    "remote-build"
+  ],
+  "author": "lianfangti",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
